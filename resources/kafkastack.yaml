@@ -62,8 +62,3 @@ services:
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
       KAFKA_CLUSTERS_0_METRICS_PORT: 9997
       DYNAMIC_CONFIG_ENABLED: 'true'
-
-
-London Paris New_york Tokyo
-Mumbai Ohio Delhi London
-Delhi London Tokyo Paris
