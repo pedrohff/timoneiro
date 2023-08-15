@@ -54,8 +54,6 @@ object ForEachBatch {
         .withColumn("Name", getFileName)
       )
 
-    // TODO: Instalar lib para ler do mysql
-
     val resultDf = initDF.select("Name", "Date", "Open")
 
     resultDf
